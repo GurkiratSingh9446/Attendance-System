@@ -101,10 +101,10 @@ class Employee_Info
          rs1=ps.executeQuery();
          while(rs1.next())
          {
-             sno=rs1.getInt("SNO");
-             first_name=rs1.getString("FIRST_NAME");
+             sno=rs1.getInt("SNO");    //Add serial number
+             first_name=rs1.getString("FIRST_NAME"); //add First Name
              last_name=rs1.getString("LAST_NAME"); // Add last name
-             dept_name=rs1.getString("DEPT_NAME"); // add dept name
+             dept_name=rs1.getString("DEPT_NAME"); add dept name
              dept_id=rs1.getString("DEPT_ID");
              dob=rs1.getString("DOB");
              doj=rs1.getTimestamp("DOJ");
