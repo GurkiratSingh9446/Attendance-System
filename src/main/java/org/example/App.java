@@ -104,9 +104,9 @@ class Employee_Info
              sno=rs1.getInt("SNO");    //Add serial number
              first_name=rs1.getString("FIRST_NAME"); //add First Name
              last_name=rs1.getString("LAST_NAME"); // Add last name
-             dept_name=rs1.getString("DEPT_NAME"); add dept name
-             dept_id=rs1.getString("DEPT_ID");
-             dob=rs1.getString("DOB");
+             dept_name=rs1.getString("DEPT_NAME"); //add dept name
+             dept_id=rs1.getString("DEPT_ID"); // add dept id
+             dob=rs1.getString("DOB"); // add dob
              doj=rs1.getTimestamp("DOJ");
 
              System.out.println(sno+"   "+first_name+"   "+last_name+"   "+dept_name+"   "+dept_id+"   "+dob+"   "+doj);
