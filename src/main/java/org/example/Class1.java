@@ -100,7 +100,7 @@ class Employee_Info1
             rs1=ps.executeQuery();
             while(rs1.next())
             {
-                sno=rs1.getInt("SNO");
+                sno=rs1.getInt("SNO");  //added sno
                 first_name=rs1.getString("FIRST_NAME");
                 last_name=rs1.getString("LAST_NAME");
                 dept_name=rs1.getString("DEPT_NAME");
